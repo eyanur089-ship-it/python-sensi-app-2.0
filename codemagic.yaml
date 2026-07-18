@@ -2,11 +2,8 @@ workflows:
   android-workflow:
     name: Android APK Build
 
-    environment:
-      vars:
-        PACKAGE_NAME: "com.example.app"
-
     scripts:
+      - chmod +x gradlew
       - ./gradlew assembleRelease
 
     artifacts:
