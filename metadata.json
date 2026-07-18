@@ -1,0 +1,6 @@
+{
+  "name": "Python",
+  "description": "A professional dark-themed splash screen with a majestic lion crest, built with Jetpack Compose.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
